@@ -32,7 +32,7 @@ services:
             -   laravel_eleven_app
         volumes:
             -   ./:/var/www
-            - ./docker-compose/nginx/:/etc/nginx/conf.d
+            - ./docker/nginx/:/etc/nginx/conf.d
         networks:
             - laravel_eleven_app_network
     #mysql service
